@@ -16,7 +16,6 @@ const avatar =
   "https://ak.picdn.net/contributors/3038285/avatars/thumb.jpg?t=164360626";
 
 const VideoPin = ({ data }) => {
-  const { colorMode } = useColorMode();
   const firestoreDb = getFirestore(firebaseApp);
 
   const bg = useColorModeValue("blackAlpha.700", "gray.900");
@@ -40,7 +39,7 @@ const VideoPin = ({ data }) => {
       direction={"column"}
       cursor="pointer"
       shadow={"lg"}
-      _hover={{ shadow: "xl" }}
+      hover={{ shadow: "xl" }}
       rounded="md"
       overflow={"hidden"}
       position="relative"

@@ -21,7 +21,6 @@ import { useNavigate } from "react-router-dom";
 
 const Create = () => {
   const { colorMode } = useColorMode();
-  const bg = useColorModeValue("gray.50", "gray.900");
   const textColor = useColorModeValue("gray.900", "gray.50");
 
   const editorRef = useRef(null);

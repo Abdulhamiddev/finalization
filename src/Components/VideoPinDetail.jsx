@@ -43,7 +43,6 @@ import {
   getSpecificVideo,
   recommendedFeed,
 } from "../utils/fetchData";
-// import logo from "../img/logo.png";
 import screenfull from "screenfull";
 import HTMLReactParser from "html-react-parser";
 import moment from "moment";
