@@ -4,7 +4,7 @@ import logo from "../img/logo.png";
 import logo_dark from "../img/logo_dark.png";
 import { Link, useNavigate } from "react-router-dom";
 // prettier-ignore
-import { Flex, Image, Input, InputGroup, InputLeftElement, Menu, MenuButton, MenuItem, MenuList, useColorMode, useColorModeValue } from "@chakra-ui/react";
+import { Flex, Image,  Menu, MenuButton, MenuItem, MenuList, useColorMode, useColorModeValue } from "@chakra-ui/react";
 import { IoAdd, IoLogOut, IoMoon, IoSearch, IoSunny } from "react-icons/io5";
 
 const NavBar = ({ user, setsearchTerm, searchTerm }) => {
